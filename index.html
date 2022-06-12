@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://kit.fontawesome.com/2e28b3cf95.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/app.css" />
+</head>
+
+<body>
+
+    <section>
+
+        <section class="container">
+            <!-- video -->
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+          <source src="" type="video/mp4" />
+
+          your browser not supported!
+        </video>
+            </div>
+            <!-- left-side -->
+            <div class="left">
+                <section class="crypto-place">
+
+                </section>
+            </div>
+
+            <!-- row -->
+            <section class="row">
+                <div class="message">
+                    <div>
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <style>
+                @keyframes upside {
+                  0% {
+                    transform: rotateZ(0)
+                  }
+
+                  50% {
+                    transform: rotateZ(180deg)
+                  }
+
+                  to {
+                    transform: rotateZ(360deg)
+                  }
+                }
+              </style>
+              <g
+                style="animation:upside 3s cubic-bezier(.91,.23,.15,.88) both infinite alternate-reverse;transform-origin:center center">
+                <circle cx="12" cy="12" r="7" stroke="#f38e82" stroke-width="1.5" transform="rotate(-180 12 12)" />
+                <circle cx="15" cy="13.723" r="1" fill="#0A0A30" transform="rotate(-180 15 13.723)" />
+                <circle cx="9" cy="13.723" r="1" fill="#0A0A30" transform="rotate(-180 9 13.723)" />
+                <path stroke="#265BFF" stroke-linecap="round" d="M9 9.853l.049-.04a4.631 4.631 0 015.951.04" />
+              </g>
+            </svg>
+                    </div>
+                    <p>Start by searching for a current weather or daily weather. Have fun!</p>
+                </div>
+                <!-- center-part -->
+                <section class="left-list">
+
+                </section>
+            </section>
+
+
+            <!-- map container -->
+            <section class="mp-container">
+                <div id="map"></div>
+            </section>
+        </section>
+
+
+
+        <section class="container-2">
+            <div class="img-bg-container"></div>
+
+            <article class="post">
+                <!-- section => class="nasa-article" -->
+            </article>
+
+            <footer class="footer-container">
+            </footer>
+        </section>
+    </section>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
